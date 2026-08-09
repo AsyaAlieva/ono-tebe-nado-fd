@@ -104,7 +104,6 @@ address p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-sizing: border-box;
 }
 
 .overlay {
@@ -185,7 +184,6 @@ address p {
   border: 1px solid #ffffff;
   color: #ffffff;
   padding: 12px 32px;
-  font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
@@ -412,13 +410,6 @@ address p {
   justify-items: center;
 }
 
-.footer__social-list {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  column-gap: 48px;
-}
-
 .footer__menu-list-item {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -436,6 +427,13 @@ address p {
 .footer__menu-link_active {
   text-decoration: none;
   list-style-type: none;
+}
+
+.footer__social-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
 }
 
 .footer__social-icon {
