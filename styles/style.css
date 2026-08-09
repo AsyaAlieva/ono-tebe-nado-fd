@@ -84,12 +84,12 @@ address p {
   line-height: 1.4;
 }
 
-.content-section {
+/* .content-section {
   box-sizing: border-box;
   width: 100%;
   max-width: 1100px;
   margin: auto;
-}
+} */
 
 /* ------------------------ Секция с главный баннером ---------------------------- */
 
@@ -114,15 +114,19 @@ address p {
 }
 
 .cover__title {
-  margin: 164px auto 0 auto;
+  /* margin: 164px auto 0 auto; */
+  margin-top: 164px;
+  margin-left: 50px;
+  margin-right: 50px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
   z-index: 2;
+  box-sizing: border-box;
 
-  width: 1000px;
+  /* width: 1000px; */
   height: 385px;
 
   display: flex;
@@ -145,10 +149,12 @@ address p {
 
 .aligned-text_center {
   align-self: center;
+  margin-right: -30px; /* попытка удалить letter-spacing после последней буквы - надеюсь, так можно делать */
 }
 
 .aligned-text_right {
   align-self: flex-end;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -187,6 +193,8 @@ address p {
   font-size: 22px;
   line-height: 100%;
   text-align: center;
+  max-height: 51px;
+  min-width: 256px;
 }
 
 /* ----------------------- Секция с карточками ------------------------------------ */
