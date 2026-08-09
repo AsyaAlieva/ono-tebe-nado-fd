@@ -374,7 +374,7 @@ address p {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-height: 180px;
+  min-height: 180px;
   position: relative;
   padding-left: 50px;
   padding-right: 50px;
