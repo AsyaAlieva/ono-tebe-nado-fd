@@ -191,7 +191,6 @@ address p {
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
-  line-height: 100%;
   text-align: center;
   max-height: 51px;
   min-width: 256px;
@@ -226,7 +225,6 @@ address p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 100%;
   text-transform: uppercase;
   margin-left: 40px;
   margin-bottom: 27px;
@@ -294,7 +292,6 @@ address p {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  line-height: 100%;
 }
 
 /* ----------------------- Секция Об Аукционе ------------------------------------ */
@@ -339,7 +336,7 @@ address p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 100%;
+  padding: 102px 0;
   text-transform: uppercase;
   justify-self: self-start;
   align-self: center;
